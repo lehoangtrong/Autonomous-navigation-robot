@@ -3,14 +3,14 @@ import time
 import random
 
 # Khai báo chân cảm biến siêu âm HC-SR04
-TRIG = machine.Pin(2, machine.Pin.OUT)
-ECHO = machine.Pin(3, machine.Pin.IN)
+TRIG = machine.Pin(1, machine.Pin.OUT)
+ECHO = machine.Pin(0, machine.Pin.IN)
 
 # Khai báo chân điều khiển động cơ (L9110S)
-motorA_IA = machine.Pin(4, machine.Pin.OUT)  # Motor A (Trái) - Chân 1
-motorA_IB = machine.Pin(5, machine.Pin.OUT)  # Motor A (Trái) - Chân 2
-motorB_IA = machine.Pin(6, machine.Pin.OUT)  # Motor B (Phải) - Chân 1
-motorB_IB = machine.Pin(7, machine.Pin.OUT)  # Motor B (Phải) - Chân 2
+motorA_IA = machine.Pin(5, machine.Pin.OUT)  # Motor A (Trái) - Chân 1
+motorA_IB = machine.Pin(4, machine.Pin.OUT)  # Motor A (Trái) - Chân 2
+motorB_IA = machine.Pin(3, machine.Pin.OUT)  # Motor B (Phải) - Chân 1
+motorB_IB = machine.Pin(2, machine.Pin.OUT)  # Motor B (Phải) - Chân 2
 
 # Hàm đo khoảng cách
 def get_distance():
