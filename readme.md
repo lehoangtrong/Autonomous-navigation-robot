@@ -64,8 +64,8 @@ This project demonstrates how to build a car that can avoid obstacles using the 
 | GP4               | A_IB               |                   |
 | GP3               | B_IA               |                   |
 | GP2               | B_IB               |                   |
-| GP2               |                    | TRIG              |
-| GP3               |                    | ECHO              |
+| GP1               |                    | TRIG              |
+| GP0               |                    | ECHO              |
 
 ## ▶️ How to Run
 
