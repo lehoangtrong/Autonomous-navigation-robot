@@ -65,7 +65,7 @@ while True:
 
     print(f"Khoảng cách: {distance:.2f} cm")
 
-    if distance < 10:  # Vật cản gần quá
+    if distance < 20:  # Vật cản gần quá
         stop()
         time.sleep(0.5)
 
